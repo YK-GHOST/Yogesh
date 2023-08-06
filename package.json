@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-2023",
+  "version": "1.0.0",
+  "description": "Portfolio for Myself",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Yogesh Kantiwal",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "gsap": "^3.12.2",
+    "lodash": "^4.17.21",
+    "parcel": "^2.9.3"
+  }
+}

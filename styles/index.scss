@@ -1,0 +1,13 @@
+@import "./base/reset";
+@import "./utils/variables";
+
+@import "./base/base";
+@import "./base/fonts";
+
+@import "./shared/animations";
+
+@import "./layout/navigation";
+
+@import "./pages/about";
+@import "./pages/works";
+@import "./pages/home";
