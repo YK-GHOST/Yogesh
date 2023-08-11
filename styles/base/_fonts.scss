@@ -6,8 +6,22 @@
 }
 
 @font-face {
-  font-family: $font-airnt;
-  src: url("/styles/fonts/Airnt.otf") format("otf");
+  font-family: $font-tanker;
+  src: url("/styles/fonts/Tanker-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-clash;
+  src: url("/styles/fonts/ClashDisplay-Variable.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-satoshi;
+  src: url("/styles/fonts/Satoshi-Variable.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

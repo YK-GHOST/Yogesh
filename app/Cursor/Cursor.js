@@ -19,6 +19,7 @@ export default class Cursor {
         if (e.target.classList.contains("btn-nav"));
         {
           this.element.style.mixBlendMode = "difference";
+          this.element.style.border = "none";
           this.element.style.transform = "scale(3)";
           this.element.style.background = "#fff";
         }
@@ -30,6 +31,7 @@ export default class Cursor {
         if (e.target.classList.contains("btn-nav"));
         {
           this.element.style.mixBlendMode = "none";
+          this.element.style.border = "2px solid #fff";
           this.element.style.transform = "scale(1)";
           this.element.style.background = "none";
         }

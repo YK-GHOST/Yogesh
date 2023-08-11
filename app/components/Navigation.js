@@ -47,7 +47,7 @@ export default class Navigation extends Component {
 
     this.timeline.to(".navigation", {
       left: 0,
-      duration: 0.1,
+      duration: 0.2,
       ease: "power1.inOut",
     });
 
@@ -79,8 +79,10 @@ export default class Navigation extends Component {
     });
 
     this.elements.navCloseBtn.addEventListener("click", (e) => {
-      this.elements.navCloseBtn.classList.toggle("hide");
-      this.timeline.reversed(!this.timeline.reversed());
+      if (e.target || e.target.closest(".navigation")) {
+        this.elements.navCloseBtn.classList.toggle("hide");
+        this.timeline.reversed(!this.timeline.reversed());
+      }
     });
   }
 

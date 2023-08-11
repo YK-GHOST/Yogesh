@@ -2,6 +2,23 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  background-color: $color-black;
+
+  &__links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    & a {
+      display: block;
+      height: 100%;
+      width: 33.33%;
+      border: 1px solid red;
+    }
+  }
 }
 
 .home__wrapper {
@@ -19,9 +36,12 @@
   flex-direction: column;
   text-align: center;
   & h1 {
-    font-size: 7rem;
+    font-size: 15rem;
+    font-family: $font-satoshi;
+    color: $color-punch;
   }
+
   & p {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
